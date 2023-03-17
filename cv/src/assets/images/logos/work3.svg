@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="488" height="490" viewBox="0 0 488 490">
+  <defs>
+    <filter id="Screenshot_2021-09-28_153910" x="0" y="0" width="488" height="490" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Screenshot_2021-09-28_153910)">
+    <rect id="Screenshot_2021-09-28_153910-2" data-name="Screenshot 2021-09-28 153910" width="434" height="436" rx="17" transform="translate(27 24)" fill="rgba(172,172,172,0.48)"/>
+  </g>
+</svg>

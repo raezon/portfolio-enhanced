@@ -1,0 +1,136 @@
+/**changing font  **/
+
+/** Navbar css**/
+.stories:before {
+  content: ".";
+  font-size: 40px;
+  color: #0b81d1;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  top: -4px;
+}
+
+.stories:after {
+  content: ".";
+  font-size: 40px;
+  color: #0b81d1;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  top: -4px;
+}
+
+.work:after {
+  content: ".";
+  font-size: 40px;
+  color: #0b81d1;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  top: -4px;
+}
+
+.contact:after {
+  content: ".";
+  font-size: 40px;
+  color: #0b81d1;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  top: -4px;
+}
+
+.fullName:before {
+  content: "";
+  width: 15px;
+  border-top: 3px solid #0b81d1;
+  position: absolute;
+  margin-left: 15px;
+  top: 22px;
+}
+.facebook:before {
+  content: "";
+  width: 30px;
+  border-top: 3px solid #0b81d1;
+  position: absolute;
+  margin-left: 20px;
+  top: 42px;
+}
+.github::before {
+  content: "";
+  width: 30px;
+  border-top: 3px solid #0b81d1;
+  position: absolute;
+  margin-left: 20px;
+  top: 42px;
+}
+
+/** Navbar end css**/
+/** background ***/
+.bg-blue-500 {
+  background-color: #0b81d1 !important;
+}
+
+/** opening closing tags ***/
+.opening-tag {
+  font-weight: 800;
+  color: #0b81d1;
+}
+.closing-tag {
+  font-weight: 800;
+  color: #0b81d1;
+}
+.hash-tag {
+  font-weight: 800;
+  color: #0b81d1;
+}
+.comment {
+  font-weight: 800;
+  color: #0b81d1;
+}
+/** end background ***/
+
+.image-profile {
+  width: 550px !important;
+  height: 550px !important;
+}
+
+/** color **/
+.text-colored {
+  color: #0b81d1;
+}
+.text-blue-personalized {
+  color: #0b81d1;
+}
+.all-project:after {
+  content: "";
+  width: 54px;
+  border-top: 3px solid #0b81d1;
+  position: relative;
+  left: -145px;
+  top: 40px;
+}
+/** persons csss **/
+.person:after{
+  content: "";
+  width: 200px;
+  border-top: 4px solid #0b81d1;
+  position: relative;
+  margin-left: 5px;
+  top: 5px;
+} 
+.first-person:before {
+    content: "";
+    color: #0b81d1;
+    border-top: 5px solid #0b81d1;
+    width: 50px;
+    position: absolute;
+   /* bottom: -3330px;*/
+}
+
+.gap-x-96 {
+  column-gap: 23rem !important;
+}
+
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_3" data-name="Group 3" transform="translate(-1792 -62)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="48" height="48" rx="11" transform="translate(1792 62)" fill="#0b81d1" opacity="0.33"/>
+    <g id="vuesax_broken_sms" data-name="vuesax/broken/sms" transform="translate(1801.081 71.081)">
+      <g id="sms" transform="translate(0)">
+        <path id="Vector" d="M25.946,12.3v3.269c0,4.541-2.595,6.486-6.486,6.486H6.486C2.595,22.054,0,20.108,0,15.568V6.486C0,1.946,2.595,0,6.486,0H19.459c3.892,0,6.486,1.946,6.486,6.486" transform="translate(2.595 4.541)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-2" data-name="Vector" d="M12.973,0,8.912,3.243a4.107,4.107,0,0,1-4.865,0L0,0" transform="translate(9.081 11.676)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-3" data-name="Vector" d="M0,0H31.135V31.135H0Z" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
