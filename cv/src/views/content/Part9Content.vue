@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto justify-items-center pt-4 pr-8 pl-8 w-3/3 sm:w-2/3 pt-16 sm:h-96"
+    class="container mx-auto justify-items-center pt-4 pr-8 pl-8 w-3/3 sm:w-10/12 pt-16 sm:h-96"
   >
     <!-- Social medias links-->
     <div class="grid grid-rows-2 sm:grid-cols-2 gap-x-4">

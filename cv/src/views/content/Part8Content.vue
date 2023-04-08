@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto w-3/3 sm:w-2/3 justify-items-center pr-8 pl-8 pt-16 sm:pt-40 h-full"
+    class="container mx-auto w-3/3 sm:w-10/12 justify-items-center pr-8 pl-8 pt-16 sm:pt-40 h-full"
   >
     <!-- Testimonial-->
     <div

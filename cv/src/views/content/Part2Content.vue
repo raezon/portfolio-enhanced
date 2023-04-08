@@ -21,7 +21,7 @@
         </div>
 
         <button
-          class="rounded-md p-2 bg-sky-600 hover:bg-blue-700 w-3/3 sm:w-2/3 text-white"
+          class="rounded-md p-2 bg-sky-600 hover:bg-blue-700 w-3/3 sm:w-2/3 text-white pb-2"
         >
           Download CV
         </button>
