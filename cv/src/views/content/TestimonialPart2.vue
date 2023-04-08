@@ -51,18 +51,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "TestimonialPart2",
-
-  data() {
-    return {};
-  },
-
-  mounted() {},
-
-  methods: {},
-};
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>

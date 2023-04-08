@@ -91,21 +91,9 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import ClosingTag from "@/components/ClosingTag.vue";
 import OpeningTag from "@/components/OpeningTag.vue";
-export default {
-  name: "Hero",
-  data() {
-    return {};
-  },
-  mounted() {},
-  methods: {},
-  components: {
-    ClosingTag,
-    OpeningTag,
-  },
-};
 </script>
 
 <style lang="scss" scoped></style>

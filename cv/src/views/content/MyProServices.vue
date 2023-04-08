@@ -51,15 +51,8 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import OpeningClosingTag from "@/components/OpeningClosingTag.vue";
-export default {
-  name: "MyProServices",
-  data() {},
-  mounted() {},
-  methods: {},
-  components: { OpeningClosingTag },
-};
 </script>
 
 <style lang="scss" scoped></style>

@@ -9,17 +9,18 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: [
-    "title1",
-    "title2",
-    "classTag",
-    "classTagSpan",
-    "classH1",
-    "classDecoration",
-  ],
-};
+<script setup>
+/* eslint-disable */
+import { defineProps } from "vue";
+
+const props = defineProps({
+  title1: String,
+  title2: String,
+  classTag: String,
+  classTagSpan: String,
+  classH1: String,
+  classDecoration: String,
+});
 </script>
 
 <style lang="scss" scoped></style>
