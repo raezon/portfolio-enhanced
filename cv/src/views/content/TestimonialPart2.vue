@@ -53,7 +53,7 @@
 
 <script>
 export default {
-  name: "Part8Content",
+  name: "TestimonialPart2",
 
   data() {
     return {};

@@ -133,7 +133,7 @@
 <script>
 import OpeningClosingTag from "@/components/OpeningClosingTag.vue";
 export default {
-  name: "Part6Content",
+  name: "Projects",
   data() {
     return {};
   },

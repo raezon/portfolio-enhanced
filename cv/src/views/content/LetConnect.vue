@@ -66,7 +66,7 @@
 
 <script>
 export default {
-  name: "Part9Content",
+  name: "LetConnect",
 
   data() {
     return {};

@@ -1,24 +1,23 @@
 <template>
   <div>
     <Hero />
-    <Part1Content />
-    <Part2Content />
-    <Part3Content />
-    <Part6Content />
-    <Part7Content />
-    <Part8Content />
-    <Part9Content />
+    <MyProServices />
+    <MyOtherServices />
+    <Projects />
+    <TestimonialPart1 />
+    <TestimonialPart2 />
+    <LetConnect />
   </div>
 </template>
 
 <script>
 import Hero from "./content/Hero.vue";
-import Part2Content from "./content/Part2Content.vue";
-import Part3Content from "./content/Part3Content.vue";
-import Part6Content from "./content/Part6Content.vue";
-import Part7Content from "./content/Part7Content.vue";
-import Part8Content from "./content/Part8Content.vue";
-import Part9Content from "./content/Part9Content.vue";
+import MyProServices from "./content/MyProServices.vue";
+import MyOtherServices from "./content/MyOtherServices.vue";
+import Projects from "./content/Projects.vue";
+import TestimonialPart1 from "./content/TestimonialPart1.vue";
+import TestimonialPart2 from "./content/TestimonialPart2.vue";
+import LetConnect from "./content/LetConnect.vue";
 export default {
   name: "Acceuil",
   data() {
@@ -28,12 +27,12 @@ export default {
   methods: {},
   components: {
     Hero,
-    Part2Content,
-    Part3Content,
-    Part6Content,
-    Part7Content,
-    Part8Content,
-    Part9Content,
+    MyProServices,
+    MyOtherServices,
+    Projects,
+    TestimonialPart1,
+    TestimonialPart2,
+    LetConnect,
   },
 };
 </script>

@@ -54,7 +54,7 @@
 <script>
 import OpeningClosingTag from "@/components/OpeningClosingTag.vue";
 export default {
-  name: "Part3Content",
+  name: "MyOtherServices",
 
   data() {
     return {};

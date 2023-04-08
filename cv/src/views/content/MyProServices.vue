@@ -54,7 +54,7 @@
 <script>
 import OpeningClosingTag from "@/components/OpeningClosingTag.vue";
 export default {
-  name: "Part2Content",
+  name: "MyProServices",
   data() {},
   mounted() {},
   methods: {},

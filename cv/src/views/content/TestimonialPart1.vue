@@ -5,7 +5,6 @@
     <!-- Testimonial-->
     <div class="grid grid-cols-1 gap-y-4">
       <!-- first section-->
-
       <div class="flex flex-col sm:flex-row gap-x-36">
         <div class="flex gap-x-4">
           <span class="hash-tag text-2xl">#</span>
@@ -45,7 +44,7 @@
 
 <script>
 export default {
-  name: "Part7Content",
+  name: "TestimonialPart1",
 
   data() {
     return {};
