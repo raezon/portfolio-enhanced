@@ -82,12 +82,15 @@
           <a href="" class="fullName font-pop">Ammar</a>
         </div>
         <div class="text-xl font-pop">
-          <a href="" class="facebook font-pop">
+          <a
+            href="https://www.facebook.com/raezonGeek"
+            class="facebook font-pop"
+          >
             <i class="fa-brands fa-facebook-f"></i>Facebook</a
           >
         </div>
         <div class="text-xl font-pop">
-          <a href="" class="github font-pop"
+          <a href="https://github.com/raezon" class="github font-pop"
             ><i class="fa-brands fa-github"></i>Github</a
           >
         </div>
