@@ -9,7 +9,7 @@
         <div>
           <div class="flex gap-x-4">
             <span class="hash-tag text-2xl">#</span>
-            <h1 class="text-2xl">My Recent Project</h1>
+            <h1 class="text-2xl">My Projects</h1>
           </div>
         </div>
       </div>
@@ -44,8 +44,10 @@
               >UI/UX</span
             >
           </div>
-          <a href="#" class="text-bleuDesign font-medium mt-4 inline-block"
-            >View More</a
+          <a
+            href="#"
+            class="text-bleuDesign hover:to-green-600 font-medium mt-4 inline-block"
+            >Link Project</a
           >
         </div>
 
@@ -78,8 +80,10 @@
               >APIs</span
             >
           </div>
-          <a href="#" class="text-bleuDesign font-medium mt-4 inline-block"
-            >View More</a
+          <a
+            href="#"
+            class="text-bleuDesign hover:to-green-600 font-medium mt-4 inline-block"
+            >Link Project</a
           >
         </div>
 
@@ -112,8 +116,10 @@
               >APIs</span
             >
           </div>
-          <a href="#" class="text-bleuDesign font-medium mt-4 inline-block"
-            >View More</a
+          <a
+            href="#"
+            class="text-bleuDesign hover:to-green-600 font-medium mt-4 inline-block"
+            >Link Project</a
           >
         </div>
       </div>
