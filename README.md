@@ -1,5 +1,9 @@
 # my-portfolio
 
+## Project overview
+
+![screencapture-localhost-8080-2023-04-08-04_02_00](https://user-images.githubusercontent.com/47975444/230788803-078229c8-15c6-4a52-97b6-4370c385c4f4.png)
+
 ## Project setup
 ```
 yarn install
