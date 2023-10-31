@@ -14,8 +14,8 @@
           <h1 class="text-6xl ml-8 font-bold">connect</h1>
         </div>
 
-        <div class="flex justify-end w-3/3 sm:w-2/3 gap-x-4">
-          <span class="text-4xl text-colored font-bold">Hire me</span>
+        <div class="flex justify-end w-3/3 sm:w-3/3 gap-x-4">
+          <span class="text-4xl text-colored font-bold">Engagez-moi</span>
           <span class="text-colored text-4xl font-bold">-></span>
         </div>
       </div>
@@ -28,7 +28,7 @@
                 type="text"
                 class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 id="exampleFormControlInput1"
-                placeholder="Your Name"
+                placeholder="Votre Nom"
               />
             </div>
             <div class="mb-3">
@@ -36,7 +36,7 @@
                 type="text"
                 class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 id="exampleFormControlInput1"
-                placeholder="Project title"
+                placeholder="Titre project"
               />
             </div>
 
@@ -47,14 +47,14 @@
                 id=""
                 cols="30"
                 rows="3"
-                placeholder="Project description"
+                placeholder="Description du projet"
               ></textarea>
             </div>
 
             <div class="mb-3">
               <Button
                 class="bg-[#0b81d1] hover:bg-blue-700 text-white font-bold py-2 px-4"
-                >Submit</Button
+                >Envoyer</Button
               >
             </div>
           </div>

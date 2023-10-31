@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex mt-16 justify-center sm:justify-start">
+    <div class="flex md:mt-16 justify-center sm:justify-start">
       <!--profile picture-->
       <div class="ml-16 hidden sm:block">
         <div class="flex justify-center rounded-full bg-white shadow-md ml-24">
@@ -33,7 +33,7 @@
                 <h2
                   class="font-pop text-slate-400 text-2xl font-medium text-base"
                 >
-                  //This IS ME
+                  //C’est moi
                 </h2>
               </div>
               <div>
@@ -49,13 +49,13 @@
             <div class="">
               <div class="flex gap-x-2">
                 <OpeningTag />
-                <p class="text-base">a professional web developer</p>
+                <p class="text-base">Une développeuse web professionnelle</p>
               </div>
 
-              <p class="text-base">3 years of experiance</p>
-              <p class="text-base">- make best website</p>
+              <p class="text-base">3 ans d’expérience</p>
+              <p class="text-base">- Créer le meilleur site Web</p>
               <div class="flex gap-x-2">
-                <p class="text-base">for your work</p>
+                <p class="text-base">pour votre travail</p>
                 <ClosingTag />
               </div>
             </div>
@@ -71,16 +71,16 @@
               </div>
               <div>
                 <span class="text-lg text-blue-personalized font-medium">
-                  +4 customer
+                  +4 client
                 </span>
               </div>
               <div>
-                <span class="text-lg font-medium"> since 2018 </span>
+                <span class="text-lg font-medium"> depuis 2019 </span>
               </div>
             </div>
             <div class="">
               <span class="text-blue-personalized font-medium"
-                >Scroll to more</span
+                >Faire défiler vers plus</span
               >
               <span class="ml-2 text-blue-personalized font-medium">+</span>
             </div>

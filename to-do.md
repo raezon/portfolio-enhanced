@@ -6,7 +6,7 @@
 - create client instance .
 ### component needed
 tags open closed
-learn more
+Savoir plus
 ### tawdif
 - basic vue
 - realworld hello

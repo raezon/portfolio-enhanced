@@ -63,14 +63,14 @@
     </div>
 
     <!-- Ending nav menu-->
-    <div class="hidden sm:flex sm:flex-wrap sm:gap-x-96 sm:ml-24">
+    <div class="hidden sm:flex sm:gap-x-80 sm:ml-24">
       <!-- First part-->
       <div class="grid grid-cols-3 gap-x-4">
         <div class="text-xl font-pop">
           <a href="" class="stories font-pop">Stories</a>
         </div>
         <div class="text-xl font-pop">
-          <a href="" class="work text-neutral-400 font-pop">Works</a>
+          <a href="" class="work text-neutral-400 font-pop">Project</a>
         </div>
         <div class="text-xl font-pop">
           <a href="" class="contact text-neutral-400 font-pop">Contact</a>

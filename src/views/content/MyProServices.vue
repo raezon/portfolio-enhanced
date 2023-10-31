@@ -7,23 +7,23 @@
       <div class="grid grid-rows-4 gap-4">
         <div class="flex gap-x-4">
           <span class="hash-tag text-2xl">#</span>
-          <h1 class="text-2xl font-semibold">My Pro Services</h1>
+          <h1 class="text-2xl font-semibold">Mes services Pro</h1>
         </div>
         <div class="flex gap-x-2">
           <span class="opening-tag"> &#60;</span>
-          <p>I enjoy solving problems with clean</p>
+          <p>J’aime résoudre les problèmes avec clean</p>
         </div>
 
-        <p>scalable solutions.I have a genuine</p>
+        <p>solutions évolutives. J’ai une véritable</p>
         <div class="flex gap-x-2">
-          <p>passion for inspiring design</p>
+          <p>Passion pour un design inspirant</p>
           <span class="closing-tag">/></span>
         </div>
 
         <button
           class="rounded-md p-2 bg-sky-600 hover:bg-blue-700 w-3/3 sm:w-2/3 text-white pb-2"
         >
-          Download CV
+          Télecharger cv
         </button>
       </div>
       <div class="w-full mt-4 sm:mt-0">
@@ -32,9 +32,9 @@
         >
           <img src="@/assets/images/logos/backend.svg" alt="" />
           <h1>back-end dev</h1>
-          <p>Thinking on a good solution</p>
-          <p>rather than making it work</p>
-          <p>it may work but it will crash</p>
+          <p>Réfléchir à une  solution scallable</p>
+          <p>plutôt que de le faire fonctionner</p>
+          <p>elle s'arrêtera un jour</p>
           <!-- think on making it reausable-->
           <OpeningClosingTag
             title1="Learn"

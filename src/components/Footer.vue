@@ -9,7 +9,7 @@
 
       <div>
         <span class="font-pop font-semibold"
-          >Design by: Electron studio all right reserved</span
+          >Design par: Electron studio tous droits réservés</span
         >
       </div>
     </div>

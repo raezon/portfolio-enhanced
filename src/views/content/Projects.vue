@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="container mx-auto w-3/3 sm:w-10/12 justify-items-center pr-8 pl-8 h-full"
-  >
+  <div class="container mx-auto w-3/3 sm:w-11/12 justify-items-center pr-8 pl-8 h-full">
     <!-- Prject section-->
     <div class="grid grid-rows-1 sm:grid-cols-1 gap-x-4 gap-y-16">
       <!-- title-->
@@ -15,123 +13,23 @@
       </div>
       <!-- my project section-->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="bg-white rounded-lg shadow-md p-6">
-          <img
-            src="https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
-            alt="Image 1"
-            class="w-full mb-4 rounded-lg"
-          />
-          <h2 class="text-lg font-bold mb-2">Project Title</h2>
-          <p class="text-gray-700 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-            lorem quis tellus ornare imperdiet.
-          </p>
+        <div class="bg-white rounded-lg shadow-md p-6" v-for="(project, index) in projects" :key="index">
+          <img :src="project.image" 
+            alt="project"
+            class="w-full mb-4 rounded-lg" />
+          <h2 class="text-lg font-bold mb-2">{{ project.title }}</h2>
+          <p class="text-gray-700 mb-4">{{ project.description }}</p>
           <div class="flex flex-wrap">
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >HTML</span
-            >
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >CSS</span
-            >
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >JavaScript</span
-            >
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >UI/UX</span
-            >
+            <span v-for="tech in project.technologies" :key="tech"
+              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2">{{ tech }}</span>
           </div>
-          <a
-            href="#"
-            class="text-bleuDesign hover:to-green-600 font-medium mt-4 inline-block"
-            >Link Project</a
-          >
-        </div>
-
-        <div class="bg-white rounded-lg shadow-md p-6">
-          <img
-            src="https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
-            alt="Image 2"
-            class="w-full mb-4 rounded-lg"
-          />
-          <h2 class="text-lg font-bold mb-2">Project Title</h2>
-          <p class="text-gray-700 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-            lorem quis tellus ornare imperdiet.
-          </p>
-          <div class="flex flex-wrap">
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >React</span
-            >
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >Node.js</span
-            >
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >MongoDB</span
-            >
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >APIs</span
-            >
-          </div>
-          <a
-            href="#"
-            class="text-bleuDesign hover:to-green-600 font-medium mt-4 inline-block"
-            >Link Project</a
-          >
-        </div>
-
-        <div class="bg-white rounded-lg shadow-md p-6">
-          <img
-            src="https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
-            alt="Image 2"
-            class="w-full mb-4 rounded-lg"
-          />
-          <h2 class="text-lg font-bold mb-2">Project Title</h2>
-          <p class="text-gray-700 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-            lorem quis tellus ornare imperdiet.
-          </p>
-          <div class="flex flex-wrap">
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >React</span
-            >
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >Node.js</span
-            >
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >MongoDB</span
-            >
-            <span
-              class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2"
-              >APIs</span
-            >
-          </div>
-          <a
-            href="#"
-            class="text-bleuDesign hover:to-green-600 font-medium mt-4 inline-block"
-            >Link Project</a
-          >
+          <a :href="project.link">Link Project</a>
         </div>
       </div>
       <!-- end my project section-->
-      <OpeningClosingTag
-        title1="All"
-        title2="Project"
-        classTag="hidden sm:flex gap-x-2  all-project"
-        classTagSpan="opening-tag text-2xl"
-        classH1="text-2xl flex justify-center"
-        classDecoration="closing-tag text-2xl"
-      />
+      <OpeningClosingTag title1="All" title2="Project" classTag="hidden sm:flex gap-x-2  all-project"
+        classTagSpan="opening-tag text-2xl" classH1="text-2xl flex justify-center"
+        classDecoration="closing-tag text-2xl" />
     </div>
   </div>
 </template>
@@ -141,3 +39,34 @@ import OpeningClosingTag from "@/components/OpeningClosingTag.vue";
 </script>
 
 <style lang="scss" scoped></style>
+<script>
+export default {
+  data() {
+    return {
+      projects: [
+        {
+          title: "Aws cloud devops",
+          description: "J'ai une experiance sur le déploiment sur aws pour divers application tell que les application monilth notament microservices.",
+          technologies: ["Aws", "Kubernetes", "Jenkins", "Terraform"],
+          link: "https://github.com/raezon/-aws_lab_2",
+          image: "https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
+        },
+        {
+          title: "Backend",
+          description: "Je travail sur des solution scalable je suis un cycle de travail agile, aspect de dévelopment comme clean code,clean architecture.",
+          technologies: ["Php", "Laravel","Yii", "Node js", "Nest js"],
+          link: "https://soolvit.com",
+          image: "https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
+        },
+        {
+          title: "Front end",
+          description: "J'ai une experiance en tan que déveloper frontend je m'assure toujours de livré le bon code dédier a l'aspect visuel",
+          technologies: ["Html", "Css","Js", "Twlind css", "Vue"],
+          link: "https://www.assuranceiso.com/",
+          image: "https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
+        }
+      ]
+    };
+  }
+};
+</script>
