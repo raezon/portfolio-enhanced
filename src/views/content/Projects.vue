@@ -16,7 +16,7 @@
         <div class="bg-white rounded-lg shadow-md p-6" v-for="(project, index) in projects" :key="index">
           <img :src="project.image" 
             alt="project"
-            class="w-full mb-4 rounded-lg" />
+            class="w-full h-1/3  mb-4 rounded-lg" />
           <h2 class="text-lg font-bold mb-2">{{ project.title }}</h2>
           <p class="text-gray-700 mb-4">{{ project.description }}</p>
           <div class="flex flex-wrap">
@@ -49,21 +49,21 @@ export default {
           description: "J'ai une experiance sur le déploiment sur aws pour divers application tell que les application monilth notament microservices.",
           technologies: ["Aws", "Kubernetes", "Jenkins", "Terraform"],
           link: "https://github.com/raezon/-aws_lab_2",
-          image: "https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
+          image: "https://th.bing.com/th/id/OIP.OyO3FEzDghfcAvMFBjGpmAHaEK?pid=ImgDet&rs=1"
         },
         {
           title: "Backend",
           description: "Je travail sur des solution scalable je suis un cycle de travail agile, aspect de dévelopment comme clean code,clean architecture.",
           technologies: ["Php", "Laravel","Yii", "Node js", "Nest js"],
           link: "https://soolvit.com",
-          image: "https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
+          image: "https://th.bing.com/th/id/OIP.sF618sPOtC0R6E5z_abGLAHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7"
         },
         {
           title: "Front end",
           description: "J'ai une experiance en tan que déveloper frontend je m'assure toujours de livré le bon code dédier a l'aspect visuel",
           technologies: ["Html", "Css","Js", "Twlind css", "Vue"],
           link: "https://www.assuranceiso.com/",
-          image: "https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
+          image: "https://mfrachet.github.io/create-frontend-framework/logo.png"
         }
       ]
     };
